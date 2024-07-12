@@ -17,10 +17,6 @@ def get_requirements(file_path:str)->List[str]:
               
       return requirements    
   
-if __name__ == "__main__":
-    file_path = "requirements.txt"  # Replace with your actual file path
-    requirements_list = get_requirements(file_path)
-    print(requirements_list)  
          
 setup(
     name = 'mlproject',
